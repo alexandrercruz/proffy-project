@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="proffy-landing" src="web/src/assets/images/landing.svg" width="310px" />
+    <img alt="proffy-landing" src="web/src/assets/images/proffy.png" width="350px" />
 </h1>
 
 <h4 align="center">
@@ -7,9 +7,9 @@
 </h4>
 
 <p align="center">
-  <a href="#rocket-tecnologias"> :rocket: Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">🔖 Como Executar</a>&nbsp;&nbsp;&nbsp;
+  :rocket: <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  🔖 <a href="#-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -18,17 +18,20 @@
 
 Este projeto contém as seguintes tecnologias:
 
-- [React](https://reactjs.org)
+- [ReactJS](https://reactjs.org)
+- [ReactNative](https://reactnative.dev/)
+- [Axios](https://github.com/axios/axios)
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
 - [Knex](http://knexjs.org/)
 - [Sqlite3](https://www.sqlite.org/index.html)
+- [Yarn](https://yarnpkg.com/)
 
 ## 💻 Projeto
 
-O Proffy é uma proposta de projeto que facilita a vida de professores e alunos no aprendizado do dia-a-dia, tornando possível que o aluno encontre professores disponíveis para lecionar uma matéria de seu interesse e entrar em contato com elas via WhatsApp, ou no caso de ser um professor, o mesmo pode se registar e oferecer seus serviços de estudos para novos alunos.
+O Proffy é uma proposta de projeto que facilita a vida de professores e alunos, tornando possível que o aluno favorite e encontre professores disponíveis para lecionar uma matéria de seu interesse e entrar em contato com eles via WhatsApp, ou no caso de ser um professor, o mesmo pode se registar e oferecer seus serviços de estudos para novos alunos.
 
 ## 🔖 Como Executar
 
@@ -43,25 +46,27 @@ No seu terminal, siga as instruções abaixo para instalar a dependência no pro
 ```sh
 
 cd web
-yarn add react-router-dom
-yarn add @types/react-router-dom -D
+yarn install
 
 ```
-É nescessário passar @types pois no projeto é utilizado linguagem tipada (TypeScript).
 
 #### Instalação Server
 No seu terminal, siga as instruções abaixo para instalar a dependência no projeto.
 ```sh
 
 cd server
-yarn add ts-node-dev -D
-yarn add express
-yarn add @types/express -D
-yarn add knex sqlite3
-yarn add cors
+yarn install
 
 ```
-É nescessário passar @types pois no projeto é utilizado linguagem tipada (TypeScript).
+
+#### Instalação Mobile
+No seu terminal, siga as instruções abaixo para instalar a dependência no projeto.
+```sh
+
+cd mobile
+yarn install
+
+```
 
 #### Gerar banco de dados
 ```sh
@@ -87,6 +92,14 @@ yarn start
 
 ```
 
+#### Iniciando a aplicação mobile
+```sh
+
+cd mobile
+yarn start
+
+```
+
 ## License
 <p align="justify">
 This project is licensed under the <a href="https://github.com/ffzanini/proffy-project/blob/master/LICENSE">MIT<a/> License
@@ -95,7 +108,7 @@ This project is licensed under the <a href="https://github.com/ffzanini/proffy-p
 ## Agradecimentos
 
 * Rocketseat
-* Diego Fernandes
+* [Diego Fernandes](https://github.com/diego3g)
 
 ---
 
